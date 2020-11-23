@@ -1,0 +1,561 @@
+ {% extends "home/main.html" %}
+{% load static %}
+{% block content %}
+
+
+    <div class="hero-wrap js-fullheight" style="background-image: url('{% static 'images/bg_1.jpg' %}');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
+          <div class="col-md-6 ftco-animate">
+          	<h2 class="subheading">Welcome To checkex</h2>
+          	<h1>Go ahead and trade your
+						  <span
+						     class="txt-rotate"
+						     data-period="2000"
+						     data-rotate='[ "Bitcoin.", "Etherum.", "Litecoin.", "Gift Card." ]'></span>
+						</h1>
+            <!-- <h1 class="mb-4">Attorneys Fighting For Your Freedom</h1> -->
+            <p class="mb-4">We have help thousands of people to get relief from national wide fights wrongfull denials. Now they trusted legalcare attorneys</p>
+            <p><a href="#" class="btn btn-primary mr-md-4 py-2 px-4">Get Started <span class="ion-ios-arrow-forward"></span></a></p>
+          </div>
+        <div class="ex-section ex1 col-md-6">
+            <div class="ex-area">
+                <div class="ex-container">
+                    <div id="example-2"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+	   <section class="ftco-section testimony-section">
+      <div class="container">
+        <div class="row ftco-animate">
+          <div class="col-md-12">
+            <div class="carousel-testimony owl-carousel ftco-owl">
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url({% static 'images/person_1.jpg' %})"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Luno Customers  </p>
+		                    <span class="position"><span class="number mr-2" data-number="40">0</span>million+</span>
+
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url({% static 'images/person_2.jpg' %})"></div>
+                    	<div class="pl-3">
+		                    <p class="name">We've processed over</p>
+		                    <span class="position"><span class="number mr-2" data-number="40">0</span>$14 billion</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url({% static 'images/person_3.jpg' %})"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position"><span class="number mr-2" data-number="40">0</span>Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap py-4">
+                  <div class="text">
+                    <div class="d-flex align-items-center">
+                    	<div class="user-img" style="background-image: url({% static 'images/person_2.jpg' %})"></div>
+                    	<div class="pl-3">
+		                    <p class="name">Roger Scott</p>
+		                    <span class="position">Marketing Manager</span>
+		                  </div>
+	                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+			  <hr>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+	  <style>
+		  .space-y-6 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(1.5rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(1.5rem*var(--space-y-reverse));
+}
+.lg\:grid-rows-1 {
+    grid-template-rows: repeat(1,minmax(0,1fr));
+}
+.lg\:grid-cols-5 {
+    grid-template-columns: repeat(5,minmax(0,1fr));
+}
+.grid-rows-4 {
+    grid-template-rows: repeat(4,minmax(0,1fr));
+}
+.relative {
+    position: relative;
+}
+.grid {
+    display: grid;
+}
+ .lg\:p-10 {
+    padding: 2.5rem;
+}
+.lg\:rounded-l-lg {
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+}
+.p-6 {
+    padding: 1.5rem;
+}
+.bg-blue {
+    --bg-opacity: 1;
+    background-color: #0267ff;}
+    .xl\:leading-42 {
+    line-height: 42px;
+}
+.xl\:text-heading3 {
+    font-size: 32px;
+}
+.lg\:space-y-8 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(2rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(2rem*var(--space-y-reverse));
+}
+.space-y-4 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(1rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(1rem*var(--space-y-reverse));
+}
+.text-white {
+    --text-opacity: 1;
+    color: #fff;
+    color: rgba(255,255,255,var(--text-opacity));
+}
+.text-subtext3 {
+    font-size: 15px;
+}
+.font-normal {
+    font-weight: 400;
+}
+.lg\:block {
+    display: block;
+}
+.col-span-2 {
+    grid-column: span 2/span 2;
+}
+.pb-32 {
+    padding-bottom: 8rem;
+}
+.px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.hidden {
+    display: none;
+}
+.border-r-2 {
+    border-right-width: 2px;
+}
+.border-snow-100 {
+    --border-opacity: 1;
+    border-color: #e5e9f2;
+    border-color: rgba(229,233,242,var(--border-opacity));
+}
+.bg-snow-300 {
+    --bg-opacity: 1;
+    background-color: #f9fafc;
+    background-color: rgba(249,250,252,var(--bg-opacity));
+}
+.title {
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+.xl\:text-heading3 {
+    font-size: 32px;
+}
+.lg\:text-2xl {
+    font-size: 1.5rem;
+}
+.text-blue-base {
+    --text-opacity: 1;
+    color: #032041;
+    color: rgba(3,32,65,var(--text-opacity));
+}
+.space-y-3 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(0.75rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(0.75rem*var(--space-y-reverse));
+}
+.w-16 {
+    width: 4rem;
+}
+.h-1 {
+    height: .25rem;
+}
+.bg-blue-light {
+    --bg-opacity: 1;
+    background-color: #479bff;
+    background-color: rgba(71,155,255,var(--bg-opacity));
+}
+.grid-cols-6 {
+    grid-template-columns: repeat(6,minmax(0,1fr));
+}
+.grid {
+    display: grid;
+}
+.col-span-3 {
+    grid-column: span 3/span 3;
+}
+.text-gray-300 {
+    --text-opacity: 1;
+    color: #575a65;
+    color: rgba(87,90,101,var(--text-opacity));
+}
+.text-subtext3 {
+    font-size: 15px;
+}
+.font-medium {
+    font-weight: 500;
+}
+
+.space-y-6 > :not(template) ~ :not(template) {
+    --space-y-reverse: 0;
+    margin-top: calc(1.5rem*(1 - var(--space-y-reverse)));
+    margin-bottom: calc(1.5rem*var(--space-y-reverse));
+}
+.text-gray-300 {
+    --text-opacity: 1;
+    color: #575a65;
+    color: rgba(87,90,101,var(--text-opacity));
+}
+.text-subtext3 {
+    font-size: 15px;
+}
+.font-normal {
+    font-weight: 400;
+}
+.col-span-3 {
+    grid-column: span 3/span 3;
+}
+.justify-self-end {
+    justify-self: end;
+}
+
+.third-row[data-v-0bd21bf4] {
+    height: 471px;
+}
+.lg\:block {
+    display: block;
+}
+.col-span-2 {
+    grid-column: span 2/span 2;
+}
+.px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.hidden {
+    display: none;
+}
+	  </style>
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+
+
+.ln-section {
+    padding-top: 63px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+
+.ln-section h2 {
+    margin-bottom: 50px;
+}
+ .ln-section h2 {
+    margin: 20px auto;
+        margin-bottom: 20px;
+}
+.easy-steps h2 {
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+ .ln-homepage h2 {
+    text-align: center;
+}
+.easy-steps h2 {
+    width: 66%;
+    margin: 20px auto 60px;
+}
+  .easy-steps h2 span {
+    white-space: nowrap;
+}
+  .easy-steps h2 span {
+    color: #ef476f;
+}
+ .easy-steps-centered:first-child p {
+    margin-left: 28px;
+}
+
+.easy-steps-parent {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+ .easy-steps-child {
+    width: 50%;
+}
+.easy-steps-child img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ .easy-steps-centered {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+</style>
+
+
+
+
+
+<section class="ftco-section">
+	  <div class="container ln-section three-easy-steps">
+  <div class="easy-steps">
+    <h2 class="ln-centered-heading">Luno helps you buy Bitcoin, Ethereum, XRP and Litecoin in <span class="text-primary">three easy steps</span></h2>
+    <div class="row">
+      <div class="easy-steps-parent">
+        <div class="easy-steps-child easy-steps-centered ">
+          <h3>1. Sign up</h3>
+          <p>Sign up for your free Luno Wallet on web, iOS or Android and follow our easy process to set up your profile</p>
+        </div>
+        <div class="easy-steps-child">
+          <img srcset="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/welcome_en@300w.png 300w,
+                       https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/welcome_en.png,
+                       https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/welcome_en@2x.png 2x" sizes="(max-width: 480px) 300w,
+                   542w" src="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/welcome_en.png" alt="step 1">
+        </div>
+      </div>
+      <div class="easy-steps-parent">
+       <div class="easy-steps-child">
+         <img srcset="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/wallet_en@300w.png 300w,
+                      https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/wallet_en.png,
+                      https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/wallet_en@2x.png 2x" sizes="(max-width: 480px) 300w,
+                   542w" src="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/wallet_en.png" alt="step 2">
+       </div>
+       <div class="easy-steps-child easy-steps-centered">
+            <h3>2. Deposit money</h3>
+            <p>Choose your preferred payment method like bank transfer or credit card to add money to your Luno Wallet</p>
+       </div>
+      </div>
+      <div class="easy-steps-parent">
+        <div class="easy-steps-child easy-steps-centered">
+          <h3>3. Buy crypto</h3>
+          <p>Buy Bitcoin, Ethereum, XRP or Litecoin, then securely store it in your Wallet or send it on easily to friends</p>
+        </div>
+        <div class="easy-steps-child">
+          <img srcset="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/home_xbt_en@300w.png 300w,
+                       https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/home_xbt_en.png,
+                       https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/home_xbt_en@2x.png 2x" sizes="(max-width: 480px) 300w,
+                   542w" src="https://d32exi8v9av3ux.cloudfront.net/web/2020/11/13/b8c61c749c/website/images/product_shots/home_xbt_en.png" alt="step 3">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+    <section class="ftco-section ftco-no-pt">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+          	<span class="subheading">Our Attorney</span>
+            <h2 class="mb-4">Our Legal Attorneys</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-sm-6">
+        		<div class="block-2 ftco-animate">
+	            <div class="flipper">
+	              <div class="front" style="background-image: url({% static '/images/person_1.jpg' %});">
+	                <div class="box">
+	                  <h2>Ryan Anderson</h2>
+	                  <p>Civil Lawyer</p>
+	                </div>
+	              </div>
+	              <div class="back">
+	                <!-- back content -->
+	                <blockquote>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text &rdquo;</p>
+	                </blockquote>
+	                <div class="author d-flex">
+	                  <div class="image align-self-center">
+	                    <img src="{% static 'images/person_1.jpg' %}" alt="">
+	                  </div>
+	                  <div class="name align-self-center ml-3">Ryan Anderson <span class="position">Civil Lawyer</span></div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+        	</div>
+        	<div class="col-lg-3 col-sm-6">
+        		<div class="block-2 ftco-animate">
+	            <div class="flipper">
+	              <div class="front" style="background-image: url({% static '/images/person_2.jpg' %});">
+	                <div class="box">
+	                  <h2>Greg Washer</h2>
+	                  <p>Business Lawyer</p>
+	                </div>
+	              </div>
+	              <div class="back">
+	                <!-- back content -->
+	                <blockquote>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text &rdquo;</p>
+	                </blockquote>
+	                <div class="author d-flex">
+	                  <div class="image align-self-center">
+	                    <img src="{% static 'images/person_2.jpg' %}" alt="">
+	                  </div>
+	                  <div class="name align-self-center ml-3">Greg Washer<span class="position">Business Lawyer</span></div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+        	</div>
+        	<div class="col-lg-3 col-sm-6">
+        		<div class="block-2 ftco-animate">
+	            <div class="flipper">
+	              <div class="front" style="background-image: url({% static '/images/person_3.jpg' %});">
+	                <div class="box">
+	                  <h2>Tony Henderson</h2>
+	                  <p>Criminal Defense</p>
+	                </div>
+	              </div>
+	              <div class="back">
+	                <!-- back content -->
+	                <blockquote>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text &rdquo;</p>
+	                </blockquote>
+	                <div class="author d-flex">
+	                  <div class="image align-self-center">
+	                    <img src="{% static 'images/person_3.jpg' %}" alt="">
+	                  </div>
+	                  <div class="name align-self-center ml-3">Tony Henderson <span class="position">Criminal Defense</span></div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+        	</div>
+        	<div class="col-lg-3 col-sm-6">
+        		<div class="block-2 ftco-animate">
+	            <div class="flipper">
+	              <div class="front" style="background-image: url({% static '/images/person_4.jpg' %});">
+	                <div class="box">
+	                  <h2>Jack Smith</h2>
+	                  <p>Insurance Lawyer</p>
+	                </div>
+	              </div>
+	              <div class="back">
+	                <!-- back content -->
+	                <blockquote>
+	                  <p>&ldquo;Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text &rdquo;</p>
+	                </blockquote>
+	                <div class="author d-flex">
+	                  <div class="image align-self-center">
+	                    <img src="{% static 'images/person_4.jpg' %}" alt="">
+	                  </div>
+	                  <div class="name align-self-center ml-3">Jack Smith <span class="position">Insurance Lawyer</span></div>
+	                </div>
+	              </div>
+	            </div>
+	          </div>
+        	</div>
+        </div>
+    	</div>
+    </section>
+
+
+
+
+
+		<section class="ftco-consultation ftco-section ftco-no-pt ftco-no-pb img" style="background-image: url(images/bg_2.jpg);">
+			<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex justify-content-end">
+    			<div class="col-md-6 half p-3 py-5 pl-md-5 ftco-animate heading-section heading-section-white">
+    				<span class="subheading">Booking an Appointment</span>
+    				<h2 class="mb-4">Free Consultation</h2>
+    				<form action="#" class="consultation">
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Name">
+	            </div>
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Your Email">
+	            </div>
+	            <div class="form-group">
+	              <input type="text" class="form-control" placeholder="Subject">
+	            </div>
+	            <div class="form-group">
+	              <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+	            </div>
+	            <div class="form-group">
+	              <input type="submit" value="Send message" class="btn btn-dark py-3 px-4">
+	            </div>
+	          </form>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+
+
+ {% endblock content %}
